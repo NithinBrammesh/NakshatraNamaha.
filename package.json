@@ -3,13 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@lottiefiles/react-lottie-player": "^3.6.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.6",
+    "font-awesome": "^4.7.0",
+    "framer-motion": "^12.16.0",
+    "gsap": "^3.13.0",
+    "lottie-react": "^2.4.1",
+    "motion": "^12.16.0",
+    "owl.carousel": "^2.3.4",
     "react": "^19.1.0",
+    "react-bootstrap": "^2.10.10",
+    "react-countup": "^6.5.3",
     "react-dom": "^19.1.0",
-    "react-scripts": "5.0.1",
+    "react-icons": "^5.5.0",
+    "react-owl-carousel": "^2.3.3",
+    "react-router-dom": "^6.30.1",
+    "react-scripts": "^5.0.1",
+    "swiper": "^11.2.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -35,5 +55,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.5",
+    "postcss-import": "^16.1.0",
+    "tailwindcss": "^3.4.3"
   }
 }

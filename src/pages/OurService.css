@@ -1,0 +1,457 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+  /* */
+
+  .service {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+   
+  }
+  .service_layer {
+    text-align: center;
+    margin-top: 6%;
+    height: 75px;
+    margin-top: 75px;
+    margin-bottom: 80px;
+  }
+  
+  .service_layer h2 {
+    color: #e64652;
+    font-size: 32px;
+  }
+
+  .each_service {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    height: 251px;
+  }
+
+  .service_layer h2, h1{
+   
+    text-align: center;
+  }
+  
+  /* Layout Fix */
+  .each_service {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex  ;
+    align-items: center;
+  }
+  
+
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 15px;
+
+   
+    height: 76px;
+    
+  }
+  .col-md-3 h3 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 800;
+  }
+  
+  .col-md-5 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+  }
+  
+  .col-md-5 p,
+  .col-md-5 ul {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .col-md-5 ul{
+    font-size: 18px;
+  }
+
+  .service_title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .each_service:hover .service_title {
+    color: #e64652;
+  }
+  .service_img {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .service_image_wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 150%; /* 3:2 aspect ratio */
+    background: ffffff;
+  }
+  
+  .col-md-31{
+    width: 240px;
+    height: 240px;
+    transform: rotate(10deg);
+
+  }
+
+  .col-md-5 p{
+  
+    font-size: 18px;
+    width: 400px;
+  }
+  .service_image_wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: scale(1.05);
+  
+  }
+  
+  .service_img:hover .service_image_wrapper img {
+    opacity: 1;
+    transform: scale(1);
+  }
+  :root {
+    --theme-pink: #e64652;
+    --theme-blue: #21a7e1;
+  }
+  
+  /* Base button styling */
+  .service-btn {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    float: right;
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  /* Gradient hover effect */
+  .service-btn:hover {
+    background:  linear-gradient(90deg, #f20085, #ff0033);
+    color: #fff;
+    border-color: transparent;
+  }
+  
+  /* Arrow styling inside button */
+  .service-btn i {
+    display: inline-block;
+    width: 18px;
+    transform: rotate(-45deg);
+    margin-left: 10px;
+    transition: transform 0.3s linear, fill 0.3s linear;
+  }
+  
+  /* Rotate arrow back on hover */
+  .service-btn:hover i {
+    transform: rotate(0deg);
+    fill: var(--theme-pink);
+  }
+  
+  /* Remove default link underline */
+  .service-btn a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Additional global styles for hover states */
+  .r_content h5,
+  .social_nav li a:hover,
+  .text-pink,
+  .theme_pink,
+  a:focus,
+  a:hover,
+  p > a {
+    color: var(--theme-pink);
+  }
+  
+  img,
+  svg {
+    vertical-align: middle;
+  }
+  
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+  
+  
+  /* .service-btn:hover {
+    background-color: linear-gradient(135deg, #21a7e1, #e64652);;
+  } */
+  
+  .list-styled {
+    padding-left: 20px;
+    margin: 10px 0;
+  }
+  
+  .list-styled li {
+    list-style-type: none;
+    margin-bottom: 5px;
+  }
+  
+  .arrow-icon1 {
+    margin-left: 8px;
+  }
+  
+  
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+/* */
+
+.service {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+ 
+}
+.service_layer {
+  text-align: center;
+  margin-top: 6%;
+  height: 75px;
+  margin-top: 75px;
+  margin-bottom: 80px;
+}
+
+.service_layer h2 {
+  color: #e64652;
+  font-size: 32px;
+}
+
+.each_service {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 251px;
+}
+
+.service_layer h2, h1{
+ 
+  text-align: center;
+}
+
+/* Layout Fix */
+.each_service {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex  ;
+  align-items: center;
+}
+
+
+.col-md-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 0 15px;
+
+ 
+  height: 76px;
+  
+}
+.col-md-3 h3 {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.col-md-5 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 15px;
+}
+
+.col-md-5 p,
+.col-md-5 ul {
+  font-size: 18px;
+  color: #333;
+}
+
+.col-md-5 ul{
+  font-size: 18px;
+}
+
+.service_title {
+  font-size: 24px;
+  line-height: 32px;
+}
+.each_service:hover .service_title {
+  color: #e64652;
+}
+.service_img {
+  position: relative;
+  overflow: hidden;
+}
+
+.service_image_wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 150%; /* 3:2 aspect ratio */
+  background: ffffff;
+}
+
+.col-md-31{
+  width: 240px;
+  height: 240px;
+  transform: rotate(10deg);
+
+}
+
+.col-md-5 p{
+
+  font-size: 18px;
+  width: 400px;
+}
+.service_image_wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  transform: scale(1.05);
+
+}
+
+.service_img:hover .service_image_wrapper img {
+  opacity: 1;
+  transform: scale(1);
+}
+:root {
+  --theme-pink: #e64652;
+  --theme-blue: #21a7e1;
+}
+
+/* Base button styling */
+.service-btn {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  float: right;
+  position: relative;
+  z-index: 1;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Gradient hover effect */
+.service-btn:hover {
+  background:  linear-gradient(90deg, #f20085, #ff0033);
+  color: #fff;
+  border-color: transparent;
+}
+
+/* Arrow styling inside button */
+.service-btn i {
+  display: inline-block;
+  width: 18px;
+  transform: rotate(-45deg);
+  margin-left: 10px;
+  transition: transform 0.3s linear, fill 0.3s linear;
+}
+
+/* Rotate arrow back on hover */
+.service-btn:hover i {
+  transform: rotate(0deg);
+  fill: var(--theme-pink);
+}
+
+/* Remove default link underline */
+.service-btn a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Additional global styles for hover states */
+.r_content h5,
+.social_nav li a:hover,
+.text-pink,
+.theme_pink,
+a:focus,
+a:hover,
+p > a {
+  color: var(--theme-pink);
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+
+/* .service-btn:hover {
+  background-color: linear-gradient(135deg, #21a7e1, #e64652);;
+} */
+
+.list-styled {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.list-styled li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.arrow-icon1 {
+  margin-left: 8px;
+}
+
+@media (max-width: 1024px) {
+
+
+.service {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+}
