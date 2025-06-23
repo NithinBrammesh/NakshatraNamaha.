@@ -15,7 +15,7 @@
   width: 12px;
   height: 12px;
   opacity: 1;
-  background-color: #eb0057; /* Active color */
+  background-color: #000; /* Active color */
   border-radius: 50%; 
 }
 
@@ -24,7 +24,7 @@
   width: 10px;      
   height: 10px;
   border-radius: 50%; 
-  background-color: #000;
+  background-color: #1b1b1b;
   border: none;
   margin: 0 6px;     
   transition: all 0.3s ease;
@@ -36,7 +36,7 @@
   width: 12px;
   height: 12px;
   opacity: 1;
-  background-color: #eb0057; /* Active color */
+  background-color:  #1b1b1b;
   border-radius: 50%; 
 }
 
@@ -59,7 +59,7 @@
 
 .quote-icon {
   font-size: 2rem;
-  color: #eb0057;
+  color: #000;
   margin-bottom: 2rem;
   margin-right: 750px;
 }

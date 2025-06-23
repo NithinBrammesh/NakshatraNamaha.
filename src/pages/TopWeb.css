@@ -1,5 +1,5 @@
 .cta-section {
-  background-color: #6097b9;
+  background-color: #032a3a;
   color: white;
   padding: 60px 20px;
   text-align: center;
@@ -20,7 +20,7 @@
 }
 
 .cta-button {
-  background: linear-gradient(90deg, #f20085, #ff0033);
+  /* background: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100)); */
   border: none;
   padding: 12px 30px;
   font-size: 1rem;
@@ -32,7 +32,8 @@
 
 .cta-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(255, 0, 100, 0.4);
+box-shadow: 0 4px 12px rgba(0, 152, 219, 0.4);
+
 }
 
 

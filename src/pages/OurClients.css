@@ -1,7 +1,7 @@
 .clients-container {
   max-width: 1450px;
   margin: 3.5rem auto 0 auto;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   background: #ffffffd5;
   border-radius: 0.75rem;
   box-shadow: 0 8px 16px rgb(0 0 0 / 0.1);
@@ -17,7 +17,7 @@
 .ourclientsh1 h2{
   font-size: 40px;
   font-weight: 700;
-  color: #e64652;
+  color: #26abe1;
   font-family: 'Lato sans-serif';
 }
 .clients-row {

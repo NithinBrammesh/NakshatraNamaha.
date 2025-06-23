@@ -13,7 +13,17 @@
   font-family: 'Lato', sans-serif;
   margin-top: 150px;
   background-color: #f2f2f2;
+  /* max-width: 1200px; */
 
+}
+.sticky-services-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+ /* padding-right: 150px; */
 }
 
 .left-content {
@@ -23,7 +33,7 @@
   top: 150px; /* Adjusted for earlier visibility */
   height: fit-content;
   font-family: 'Lato', sans-serif;
-  margin-left: 230px; /* Reduced for better spacing */
+
   font-size: 16px;
   display: flex;
   flex-direction: column;
@@ -166,7 +176,7 @@
   font-weight: 700;
 }
 
-.card-text {
+.card-text11 {
   font-size: 1.3rem;
   line-height: 1.4;
   /* margin-top: 0.5rem; */
@@ -176,7 +186,7 @@
   -ms-overflow-style: none;    /* IE/Edge */
 }
 
-.card-text::-webkit-scrollbar {
+.card-text11::-webkit-scrollbar {
   display: none;         
 }
 
@@ -378,3 +388,4 @@
     font-size: 20px;
   }
 }
+

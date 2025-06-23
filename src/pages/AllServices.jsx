@@ -19,7 +19,7 @@ function AllServices() {
           "+ Cross-platform app solutions",
         ]}
         Details="Details"
-        imageSrc="./images/r_boy.jpg"  
+        imageSrc="./images/mobile1.jpeg"  
       />
 
       <OurService
@@ -31,7 +31,7 @@ function AllServices() {
           "+ Professional voiceovers and sound design",
         ]}
         Details="Details"
-        imageSrc="./images/r_boy.jpg"
+        imageSrc="./images/video1.jpeg"
       />
 
       <OurService
@@ -43,7 +43,7 @@ function AllServices() {
           "+ Engaging designs for social media"
         ]}
         Details="Details"
-        imageSrc="./images/r_boy.jpg"
+        imageSrc="./images/graphic.jpeg"
       />
 
       <OurService
@@ -55,7 +55,7 @@ function AllServices() {
           "+ Lead generation and Brand Positioning"
         ]}
         Details="Details"
-        imageSrc="./images/r_boy.jpg"
+        imageSrc="./images/b2b1.jpeg"
       />
     </div>
   );

@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+.website-hero {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image: url('/public/images/ttt.jpg'); /* Update if image location differs */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+}
+
+.website-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.website-content {
+  color: white;
+  text-align: left;
+  max-width: 800px;
+  width: 100%;
+}
+
+.website-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.website-content p {
+  font-size: 1.12rem;
+  line-height: 1.8;
+}
+
+.website-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 20px;
+  margin: 0 auto;
+  padding-left: 210px;
+  width: 100%;
+}
+
+.website-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.website-line,
+.website-description {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+
+.website-line {
+  width: 250px;
+  height: 2px;
+  background-color: #000;
+  margin-right: 30px;
+  margin-bottom: 100px;
+}
+
+.website-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+  max-width: 70%;
+  display: inline-block;
+}
+
+.talk-btn {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #fff;
+  transition: all 0.3s ease;
+}
+
+.talk-btn .icon {
+  margin-left: 8px;
+  transition: transform 0.3s ease;
+}
+
+.talk-btn:hover .icon {
+  transform: translateX(4px);
+}
+
+.talk-btn:hover {
+  color: #fff;
+  border-color: #aaa;
+}
+
+.app-dev-wrapper {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.app-dev-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  /* border-bottom: 2px solid #000; */
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.app-dev-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* gap: 30px; */
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.app-dev-card {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 30px 40px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.app-dev-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+  color: #007bff; /* Your desired color */
+  fill: currentColor;
+ /* Red color tint */
+filter: brightness(0) saturate(100%) invert(40%) sepia(71%) saturate(639%) hue-rotate(167deg) brightness(95%) contrast(91%);
+
+}
+
+.app-dev-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.app-dev-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #444;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.industries-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 150px;
+    background-color: #fff;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+
+.industries-left {
+  flex: 1;
+  max-width: 650px;
+  padding-left: 200px;
+}
+
+.industries-left h2 {
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.industries-left p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.industries-list {
+  display: flex;
+  gap: 40px;
+}
+
+.industries-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.industries-list li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #4a4a4a;
+  cursor: default;
+  transition: color 0.3s ease;
+}
+
+.industries-list li:hover {
+  color: #0056b3;
+}
+
+.industries-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.industries-right img {
+  max-width:500px;
+  height: auto;
+  object-fit: contain;
+}
+

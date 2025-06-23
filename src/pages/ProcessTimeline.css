@@ -50,7 +50,7 @@
   position: relative;
   box-sizing: border-box;
   overflow: visible;
-  width: 925px;
+  /* width: 925px; */
   height: var(--box_size);
   padding: 0 0 500px;
   margin: 0 auto;

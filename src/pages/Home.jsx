@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import OurProcess from './OurProcess';
+// import OurProcess from './OurProcess';
 import OurClients from './OurClients';
 import Portfolio from './PortFolio';
 import ClientsSay from './ClientsSay';
@@ -15,8 +15,15 @@ import StickyServices from './StickyServices';
 import AllServices from './AllServices';
 import TopWeb from './TopWeb';
 import Buissness from './Buissness';
+import OurProcessScroll from './OurProcessScroll';
+
+// import OwlCarousel from 'react-owl-carousel';
+
+
 
 function Home() {
+
+
   return (
     <div>
       <div className='baya'>
@@ -42,12 +49,14 @@ function Home() {
               </a>
             </ul>
           </div>
+          
         </div>
+ 
 
         {/* Digital Section */}
         <div className="digital-section">
           <h2 className="digital-heading">
-            We Shape Your <br /> Digital Presence with Creative Website Solutions
+         <span className="primary-text">We Shape Your</span> <br /> Digital Presence with Creative Website Solutions
           </h2>
           <p className="digital-paragraph">
             Since 2015, our team has been shaping digital experiences, serving over 890+ clients across 4 countries.
@@ -64,7 +73,8 @@ function Home() {
       {/* Additional Homepage Sections */}
         <StickyServices />
       <AllServices />
-      <OurProcess />
+      {/* <OurProcess /> */}
+      <OurProcessScroll/>
       <OurClients />
         <Buissness />
            <TopWeb />

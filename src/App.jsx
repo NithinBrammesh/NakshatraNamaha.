@@ -4,7 +4,17 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 
+import Service from './pages/Service';
 import AboutUs from './pages/about';
+import OurWork from './pages/OurWork'; 
+import Blogs from './pages/Blogs'; 
+import Contact from './pages/Contact';
+import Careers from './pages/Careers';
+import JobDetail from './pages/JobDetail';
+import WebsiteDevelopment from './pages/WebsiteDevelopment';
+import WordPress from './pages/WordPress';
+import Video from './pages/Video';
+import SocialMedia from './pages/SocialMedia';
 
 
 export default function App() {
@@ -16,7 +26,19 @@ export default function App() {
         <Route path="/home/OurClientSays" element={<Home />} />
    
         <Route path="/about" element={<AboutUs />} />
-    
+     <Route path="/service" element={<Service />} />
+       <Route path="/work" element={<OurWork />} />
+        <Route path="/blog" element={<Blogs />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/careers" element={<Careers />} />
+        {/* <Route path="/jobs/automation-tester" element={<ApplyJob />} /> */}
+          <Route path="/jobs/:slug" element={<JobDetail />} />
+
+            {/* Services */}
+        <Route path="/services/website" element={<WebsiteDevelopment />} />
+         <Route path="/services/wordpress" element={<WordPress />} />
+          <Route path="/services/video" element={<Video />} />
+          <Route path="/services/social-media-marketing/" element={<SocialMedia />} />
       </Routes>
     </Router>
   );

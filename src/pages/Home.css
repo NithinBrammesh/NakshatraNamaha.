@@ -31,7 +31,7 @@
 
 
 .heading1 {
-  margin-left: 14%;
+  margin-left: 10%;
   margin-top: 5%;
   /* width: 47%; */
   max-width: 100%;
@@ -61,7 +61,7 @@
   margin-top: 40px;
   display: flex;
   gap: 30px;
-  margin-left: 10%;
+  margin-left: 6%;
 }
 
 .buttons .btn1 {
@@ -87,7 +87,7 @@
 }
 
 .cta-button {
-  background: linear-gradient(90deg, #f20085, #ff0033);
+  background: #0098db; 
   border: none;
   padding: 12px 30px;
   font-size: 1rem;
@@ -102,7 +102,8 @@
 
 .cta-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(255, 0, 100, 0.4);
+ box-shadow: 0 4px 12px rgba(0, 152, 219, 0.4);
+
   color: white;
 }
 
@@ -111,6 +112,33 @@
   list-style: none;
   margin-left: 50px;
 }
+
+.horizontal-carousel-wrapper {
+  max-width: 818px; /* or whatever width you prefer */
+  margin: 0 auto;    /* centers the wrapper horizontally */
+ /* optional background */
+  text-align: center;
+}
+
+
+.item-box {
+  background: #ffffffd8;
+  padding: 20px 20px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #000000; /* Black text */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
 
 .content {
   background-color: white;
@@ -228,6 +256,15 @@
   max-width: 1300px;
   margin: 0 auto;
   text-align: start;
+ 
+}
+
+.digital-section h2{
+ border-left: 5px solid #0098db;
+  padding-left: 20px;
+}
+.primary-text{
+ color: #0098db; 
 }
 
 .digital-heading {

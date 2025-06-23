@@ -64,7 +64,7 @@ const ScrollCard = ({ service, index }) => {
       <img src={service.img} className="card-img" alt={service.title} />
       <div className="card-img-overlay bg-dark bg-opacity-50 rounded p-3">
         <h5 className="card-title">{service.title}</h5>
-        <p className="card-text">{service.desc}</p>
+        <p className="card-text11">{service.desc}</p>
       </div>
     </div>
   );
@@ -73,7 +73,9 @@ const ScrollCard = ({ service, index }) => {
 const StickyServices = () => {
  
   return (
+ 
     <div className="services-container">
+  <div className="sticky-services-inner">
       {/* LEFT SIDE TEXT */}
       <div className="left-content" >
 
@@ -103,6 +105,7 @@ const StickyServices = () => {
           ))}
       </div>
     </div>
+</div>
   );
 };
 

@@ -2,10 +2,10 @@
 .our-process-container {
   max-width: 100%;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 5rem 3rem;
   text-align: center;
   user-select: none;
-  margin-top: 5%;
+  background-color: #f2f2f2;
 }
 
 /* Button Tabs */
@@ -37,7 +37,7 @@
 }
 
 .button-list button.active {
-  background:linear-gradient(90deg, #f20085, #ff0033);
+  background:linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
   color: #fff;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -117,25 +117,14 @@
   width: 10px;      
   height: 10px;
   border-radius: 50%; 
-  background-color: #1c9cd2;
+  /* background-color: #1c9cd2; */
   border: none;
   margin: 0 6px;     
   transition: all 0.3s ease;
   opacity: 0.5;
 }
 
-/* .carousel-indicators {
-  position: absolute;
-  bottom: -40px;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.carousel-indicators .active {
-  background-color: #454545;
-} */
+
 
 
 /* Stats List (Why Your Business Needs a Website) */
