@@ -50,9 +50,9 @@ function Navbar() {
                   dropdownTimer.current = setTimeout(() => setDropdownOpen(false), 500);
                 }}
               >
-                <a href="/service" className="nav-link">
+                <Link to="/service" className="nav-link">
                   Services <FontAwesomeIcon icon={faChevronDown} className="ms-1" />
-                </a>
+                </Link>
 
 
                 <div className={`dropdown-menu mt- py-4 shadow-sm ${dropdownOpen ? 'show' : ''}`}>
@@ -71,21 +71,19 @@ function Navbar() {
 
                             <Link className="dropdown-item" to="/services/website">Mobile App Development</Link>
                             <Link className="dropdown-item" to="/services/wordpress">WordPress Website Development</Link>
-                              <a className="dropdown-item" href="/services/social-media-marketing/">E-Commerce Website Development</a>
+                              <Link  className="dropdown-item" to="/services/Ecommerce/">E-Commerce Website Development</Link >
                             <Link className="dropdown-item" to="/services/video">Corporate Video Production</Link>
                           </div>
                           <div className="col-lg-4 col-md-4 col-sm-6">
-                            <a className="dropdown-item" href="/services/social-media-marketing/">Social Media Marketing</a>
-                            <a className="dropdown-item" href="/services/2d-animation">SEO Services</a>
-                            <a className="dropdown-item" href="/services/b2b">B2B Marketing Services</a>
-                             <a className="dropdown-item" href="/services/software">Software Development</a>
+                            <Link  className="dropdown-item" to="/services/social-media-marketing/">Social Media Marketing</Link>
+                            <Link  className="dropdown-item" to="/services/SeoService">SEO Services</Link >
+                            <Link className="dropdown-item" to="/services/b2b">B2B Marketing Services</Link>
+                             <Link className="dropdown-item" to="/services/software">Software Development</Link>
                           </div>
                           <div className="col-lg-4 col-md-4 col-sm-6">
-                           
-                            <a className="dropdown-item" href="/services/smm">Social Media Marketing</a>
-                            <a className="dropdown-item" href="/services/uiux">UI/UX Design</a>
-                             <a className="dropdown-item" href="/services/2d-animation">2D Animation</a>
-                          </div>
+                            <Link className="dropdown-item" to="/services/uiux">UI/UX Design</Link>
+                             <Link className="dropdown-item" to="/services/2d-animation">2D Animation</Link>
+                          </div>  
                         </div>
                       </div>
                     </div>

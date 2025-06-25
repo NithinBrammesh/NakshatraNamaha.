@@ -60,7 +60,7 @@ export default function MobileProcessTimeline() {
         } else if (container.scrollLeft >= maxScroll - ITEM_WIDTH * 2) {
           container.scrollLeft = middle;
         }
-      }, 600); // match transition duration
+      }, 600); 
     }
   };
 

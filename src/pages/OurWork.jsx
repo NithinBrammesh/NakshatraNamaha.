@@ -3,6 +3,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './OurWork.css';
+import OurWorkGallery from './ OurWorkGallery';
+import InfoSection from '../components/InfoSection';
+import ClientSlider from './ClientSlider';
 
 
 export default function OutWork() {
@@ -54,8 +57,9 @@ Our work reflects innovation and expertise, delivering strategies that drive rea
         </motion.div>
       </div>
     </section>
-
-
+<OurWorkGallery/>
+   <ClientSlider/>
+<InfoSection/>
 
 
     </>

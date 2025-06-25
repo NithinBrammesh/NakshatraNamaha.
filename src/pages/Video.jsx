@@ -117,7 +117,6 @@ export default function Video() {
                     transition={{ duration: 0.6, delay: 0.2 }}
                 >
                     <div className="videoapp-section-wrapper">
-                        <div className="videoapp-line"></div>
                         <p className="videoapp-description">
 
                             Corporate video production is an essential tool for businesses looking to communicate their vision, values, and services effectively. Whether it's showcasing your brand story, creating training videos, or delivering impactful client presentations, a well-crafted corporate video can leave a lasting impression. As the best corporate video production company in Mysore, we focus on creativity and precision, ensuring every video aligns with your business goals and resonates with your audience. Our team specializes in producing high-quality corporate videos designed to meet your specific needs. Every step is managed with attention to detail and professionalism. We combine innovative techniques and modern equipment to deliver videos that are visually engaging and convey your message clearly, helping you build trust and connection with your audience.

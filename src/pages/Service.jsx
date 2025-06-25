@@ -24,14 +24,16 @@ export default function Services() {
     </div>
   </div>
 </div>
-<div className="section-vertical">
+<div className="software-section">
   <motion.div
     initial={{ opacity: 0, y: -30 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true }}
     transition={{ duration: 0.6 }}
   >
-    <h2 className="section-title">Amplify Your Brand with Professional Digital Solutions</h2>
+    <h2 className="software-section__title">
+      Amplify Your Brand with Professional Digital Solutions
+    </h2>
   </motion.div>
 
   <motion.div
@@ -40,9 +42,8 @@ export default function Services() {
     viewport={{ once: true }}
     transition={{ duration: 0.6, delay: 0.2 }}
   >
-    <div className="section-content-wrapper">
-      <div className="section-line"></div>
-      <p className="section-description">
+    <div className="software-section__content">
+      <p className="software-section__description">
         At Nakshatra Namaha Creations, we specialize in helping brands reach new heights with cutting-edge digital
         solutions. Whether you’re looking to build a strong online presence, engage your audience, or drive business
         growth, our team of experts is here to create tailored strategies that align with your vision. From web
@@ -52,6 +53,8 @@ export default function Services() {
     </div>
   </motion.div>
 </div>
+
+
 <FeatureCardGrid/>
 <ClientSlider/>
 <InfoSection/>

@@ -1,0 +1,60 @@
+.ecommerce-types-wrapper {
+  padding: 60px 80px;
+  background-color: #f2f2f2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ecommerce-types-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #111;
+}
+
+.ecommerce-types-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 fixed columns */
+  width: 100%;
+  margin: 0 auto;
+  background: #f2f2f2;
+}
+
+.ecommerce-types-card {
+  padding: 50px 40px;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc !important;
+  border-left: 1px solid #ccc;
+  text-align: center;
+  background: #f2f2f2;
+  box-sizing: border-box;
+}
+
+.ecommerce-types-card:nth-child(4n) {
+  border-right: none;
+}
+
+.ecommerce-types-card:last-child,
+.ecommerce-types-card:nth-last-child(2),
+.ecommerce-types-card:nth-last-child(3) {
+  border-bottom: none;
+}
+
+.ecommerce-types-icon {
+  color: #0098db;
+  margin-bottom: 15px;
+}
+
+.ecommerce-types-heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.ecommerce-types-description {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.6;
+}

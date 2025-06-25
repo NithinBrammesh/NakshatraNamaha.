@@ -1,8 +1,14 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import './ReasonsToChooseWordPress.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const reasons = [
+const cardVariants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+};
+
+const cards = [
   {
     title: 'Best social media practices',
     description:
@@ -43,22 +49,25 @@ const reasons = [
 
 const ReasonsToChooseWordPress = () => {
   return (
-    <div className="container my-5">
-      <div className="row g-4">
-        {reasons.map((item, index) => (
-          <div className="col-lg-4 col-md-6" key={index}>
-            <div className="social-card">
-              <div className="social-inner d-flex align-items-start">
-                <div className="social-icon">{item.iconTag}</div>
-                <div className="social-content">
-                  <h5 className="social-title">{item.title}</h5>
-                  <p className="social-description">{item.description}</p>
-                </div>
-              </div>
-            </div>
+    <div className="highlight-feature-grid">
+      {cards.map((card, i) => (
+        <motion.div
+          key={i}
+          className={`highlight-feature-card color-${card.color?.toLowerCase() || 'default'}`}
+          custom={i}
+          variants={cardVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.3 }}
+        >
+          <div className="highlight-feature-header">
+              <div className="highlight-icon-wrap">{card.iconTag}</div>
+            <h3>{card.title}</h3>
+          
           </div>
-        ))}
-      </div>
+          <p className="highlight-card-text">{card.description}</p>
+        </motion.div>
+      ))}
     </div>
   );
 };

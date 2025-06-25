@@ -109,7 +109,6 @@ Maximize your digital potential with our mobile app development expertise. We eq
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <div className="website-section-wrapper">
-            <div className="website-line"></div>
             <p className="website-description">
           Nakshatra Namaha Creations is a leading mobile app development company in Mysore, designed with exceptional, user-centric solutions meeting your business objectives. Our team of professionals develops mobile applications that are smooth and seamless in functionalities with strong performance, refined and user-friendly across iOS, Android and cross-platform frameworks. We commit to innovation and precision while building apps that help businesses provide their audience with effective connectivity to grow, in depth, in the digital landscape.
             </p>

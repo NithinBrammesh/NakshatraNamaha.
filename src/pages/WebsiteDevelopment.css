@@ -43,15 +43,13 @@
   font-size: 1.12rem;
   line-height: 1.8;
 }
-
 .website-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 80px 20px;
-  margin: 0 auto;
-  padding-left: 210px;
+  padding: 80px 30px;
   width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  text-align: center; /* ✅ Center text content */
 }
 
 .website-title {
@@ -80,8 +78,9 @@
   font-size: 1.1rem;
   line-height: 1.8;
   color: #444;
-  max-width: 70%;
+  max-width: 94%;
   display: inline-block;
+  text-align: left; /* ✅ Ensures paragraph text is centered */
 }
 
 .talk-btn {

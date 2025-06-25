@@ -43,15 +43,13 @@
   font-size: 1.12rem;
   line-height: 1.8;
 }
-
 .wordpressapp-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 80px 20px;
-  margin: 0 auto;
-  padding-left: 210px;
+  padding: 80px 30px;
   width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  text-align: center; /* ✅ Center content */
 }
 
 .wordpressapp-title {
@@ -68,20 +66,13 @@
   margin-top: 30px;
 }
 
-.wordpressapp-line {
-  width: 250px;
-  height: 2px;
-  background-color: #000;
-  margin-right: 30px;
-  margin-bottom: 100px;
-}
-
 .wordpressapp-description {
   font-size: 1.1rem;
   line-height: 1.8;
   color: #444;
-  max-width: 70%;
+  max-width: 96%;
   display: inline-block;
+  text-align: left; 
 }
 
 .talk-btn {

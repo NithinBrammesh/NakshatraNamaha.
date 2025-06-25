@@ -59,7 +59,7 @@ const OurProcessScroll = () => {
     <>
       <div className="space-50vh" />
       <div className="scroll-wrapper" ref={wrapperRef}>
-        <div className="scroll-container" ref={containerRef}>
+        <div className="scroll-container11" ref={containerRef}>
 
    <div className="scroll-panel standout-panel">
       <h2 className="standout-title">WHAT MAKES US STAND OUT</h2>
@@ -193,12 +193,11 @@ const OurProcessScroll = () => {
 </div>
 
 
-
  <div className="scroll-panel panel-ourProcess">
       <div className="panel-content">
         <h2 className="section-title">Our Process</h2>
 
-        <div className="process-grid">
+        <div className="process-grid11">
           <div className="process-card">
             <FontAwesomeIcon icon={faPaintBrush} className="icon" />
             <h4>Custom Designs</h4>
@@ -260,7 +259,7 @@ const OurProcessScroll = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div> 
       <div className="scroll-panel panel-cta">
       <div className="cta-content11">
         <p className="cta-subtitle11">Ready to elevate your digital presence?</p>

@@ -162,7 +162,7 @@ export default function WordPress() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <div className="wordpressapp-section-wrapper">
-            <div className="wordpressapp-line"></div>
+           
             <p className="wordpressapp-description">
               Nakshatra Namaha Creations is a leading WordPress development company in Mysore, delivering exceptional, user-centric websites that align with your business objectives. Our team of professionals builds WordPress websites with seamless functionality, strong performance, and a refined, user-friendly experience. We specialize in custom themes, plugins, and responsive designs to ensure optimal performance across devices. Committed to innovation and precision, we create websites that enhance your brand’s online presence and foster meaningful connections in the digital landscape.
             </p>
@@ -205,14 +205,15 @@ export default function WordPress() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <div className="wordpressapp-section-wrapper">
-            <div className="wordpressapp-line"></div>
+
             <p className="wordpressapp-description">
 
               At Nakshatra Namaha Creations, we specialize in WordPress website development in Mysore, delivering seamless and engaging user experiences. With a focus on quality and client satisfaction, we blend expertise with creativity to help businesses thrive in the digital world. Here's why we are Mysore's trusted choice for WordPress website development.
             </p>
           </div>
         </motion.div>
-      </div>
+      </div>|
+      
       <div className="wpcard-wrapper">
         {cards.map((card, i) => (
           <motion.div

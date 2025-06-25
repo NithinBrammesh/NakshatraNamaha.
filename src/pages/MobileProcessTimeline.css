@@ -170,3 +170,218 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* --------- MOBILE OPTIMIZATION --------- */
+
+
+/* ----------- Mobile Optimization (max-width: 768px) ----------- */
+@media (max-width: 768px) {
+  .mobile-process-timeline {
+    padding: 50px 15px;
+  }
+
+  .mobile-process-timeline h2 {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+    max-width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .timeline-wrapper {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+
+  .timeline-container {
+    max-width: 100%;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+
+  .timeline-card {
+    min-width: 240px;
+    max-width: 240px;
+    padding: 1.2rem;
+  }
+
+  .timeline-card h4 {
+    font-size: 1rem;
+  }
+
+  .timeline-card p {
+    font-size: 0.9rem;
+  }
+
+  .icon-box img,
+  .icon-box1 svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .scroll-btn {
+    width: 45px;
+    height: 45px;
+    font-size: 1.4rem;
+  }
+
+  .scroll-wrapper {
+    padding: 1rem;
+  }
+
+  .scroll-container {
+    gap: 1rem;
+  }
+
+  .scroll-card {
+    min-width: 260px;
+    max-width: 260px;
+    padding: 1.2rem;
+  }
+
+  .scroll-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .scroll-buttons {
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .scroll-buttons button {
+    width: 36px;
+    height: 36px;
+    font-size: 1.3rem;
+  }
+}
+
+/* ----------- Ultra-Mobile Optimization (max-width: 425px) ----------- */
+@media (max-width: 425px) {
+  .mobile-process-timeline h2 {
+    font-size: 1.3rem;
+  }
+
+  .timeline-card {
+    min-width: 200px;
+    max-width: 200px;
+    padding: 1rem;
+  }
+
+  .timeline-card h4 {
+    font-size: 0.95rem;
+  }
+
+  .timeline-card p {
+    font-size: 0.85rem;
+  }
+
+  .scroll-card {
+    min-width: 220px;
+    max-width: 220px;
+  }
+
+  .scroll-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .scroll-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .icon-box img,
+  .icon-box1 svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+/* ----------- Medium Screens Optimization (max-width: 1044px) ----------- */
+@media (max-width: 1044px) {
+  .mobile-process-timeline {
+    padding: 60px 20px;
+  }
+
+  .mobile-process-timeline h2 {
+    font-size: 1.7rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    max-width: 90%;
+    margin-bottom: 35px;
+  }
+
+  .timeline-wrapper {
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+
+  .timeline-container {
+    max-width: 100%;
+    gap: 1.1rem;
+    padding: 1rem 0;
+  }
+
+  .timeline-card {
+    min-width: 260px;
+    max-width: 260px;
+    padding: 1.4rem;
+  }
+
+  .timeline-card h4 {
+    font-size: 1.05rem;
+  }
+
+  .timeline-card p {
+    font-size: 0.92rem;
+  }
+
+  .icon-box img,
+  .icon-box1 svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .scroll-wrapper {
+    padding: 1.5rem;
+  }
+
+  .scroll-container {
+    gap: 1.2rem;
+  }
+
+  .scroll-card {
+    min-width: 280px;
+    max-width: 280px;
+    padding: 1.3rem;
+  }
+
+  .scroll-icon {
+    width: 34px;
+    height: 34px;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .scroll-buttons {
+    gap: 0.75rem;
+  }
+
+  .scroll-buttons button,
+  .scroll-btn {
+    width: 48px;
+    height: 48px;
+    font-size: 1.5rem;
+  }
+}

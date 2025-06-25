@@ -1,6 +1,7 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import './InfoSection.css';
+import { Link } from 'react-router-dom';
 
 const InfoSection = () => {
   return (
@@ -12,12 +13,12 @@ const InfoSection = () => {
           <div className="col-md-4 footer-column">
             <h5 className="footer-title">QUICK LINKS</h5>
             <ul className="footer-links">
-              <li><a href="/">Home</a></li>
-              <li><a href="/about-us">About</a></li>
-              <li><a href="/our-works">Works</a></li>
-              <li><a href="/services">Services</a></li>
-              <li><a href="/careers">Careers</a></li>
-              <li><a href="/contact-us">Contact Us</a></li>
+              <li>  <Link className="nav-link" to="/">Home</Link></li>
+              <li><Link className="nav-link" to="/about">About Us</Link></li>
+              <li> <Link to="/service" className="nav-link"> Services</Link></li>
+              <li>  <Link className="nav-link" to="/work">Our Work</Link></li>
+              <li> <Link className="nav-link" to="/careers">Careers</Link></li>
+              <li><Link className="nav-link" to="/contact">Contact Us</Link></li>
             </ul>
             <h5 className="footer-title mt-4">Social Media</h5>
             <div className="footer-social-icons">
@@ -69,13 +70,12 @@ const InfoSection = () => {
           <div className="col-md-4 footer-column">
             <h5 className="footer-title">OUR SERVICES</h5>
             <ul className="footer-links">
-              <li><a href="/mobile-app-development-company-in-bangalore">Mobile App Development</a></li>
-              <li><a href="/website-development-company-in-bangalore">Website Development</a></li>
-              <li><a href="/corporate-video-production-company-in-bangalore">Corporate Video Production</a></li>
-              <li><a href="/digital-marketing-agency-in-bangalore">Digital Marketing</a></li>
-              <li><a href="/graphic-design-company-in-bangalore">Graphic Designing</a></li>
-              <li><a href="/2d-animation-studio-in-bangalore">2D Animation</a></li>
-              <li><a href="/b2b-marketing-agency-in-bangalore">B2B Marketing</a></li>
+              <li><Link className="dropdown-item" to="/services/website">Mobile App Development</Link></li>
+              <li> <Link  className="dropdown-item" to="/services/Ecommerce/">Website Development</Link ></li>
+              <li> <Link className="dropdown-item" to="/services/video">Corporate Video Production</Link></li>
+              <li>   <Link  className="dropdown-item" to="/services/social-media-marketing/">Digital Marketing</Link></li>
+              <li>  <Link className="dropdown-item" to="/services/uiux">UI/UX Design</Link></li>
+              <li><Link className="dropdown-item" to="/services/2d-animation">2D Animation</Link></li>
             </ul>
           </div>
         </div>

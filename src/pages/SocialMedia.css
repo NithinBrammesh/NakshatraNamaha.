@@ -43,22 +43,19 @@
   font-size: 1.12rem;
   line-height: 1.8;
 }
-
 .socialmedia-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 80px 20px;
-  margin: 0 auto;
-  padding-left: 210px;
+  padding: 80px 30px;
   width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
 .socialmedia-title {
   font-size: 2.5rem;
   font-weight: 700;
   color: #000;
-  margin-bottom: 20px;
 }
 
 .socialmedia-line,
@@ -68,21 +65,16 @@
   margin-top: 30px;
 }
 
-.socialmedia-line {
-  width: 250px;
-  height: 2px;
-  background-color: #000;
-  margin-right: 30px;
-  margin-bottom: 100px;
-}
 
 .socialmedia-description {
   font-size: 1.1rem;
   line-height: 1.8;
   color: #444;
-  max-width: 70%;
+  max-width: 75%;
   display: inline-block;
+  text-align: left;
 }
+
 
 .talk-btn {
   display: inline-flex;

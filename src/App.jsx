@@ -15,7 +15,12 @@ import WebsiteDevelopment from './pages/WebsiteDevelopment';
 import WordPress from './pages/WordPress';
 import Video from './pages/Video';
 import SocialMedia from './pages/SocialMedia';
-
+import Ecommerce from './pages/Ecommerce';
+import SeoService from './pages/SeoService';
+import B2BMarket from './pages/B2BMarket';
+import SoftwareDevelopment from './pages/SoftwareDevelopment';
+import UIUXDevelopment from './pages/UIUXDevelopment';
+import AnimationDevelopment from './pages/AnimationDevelopment';
 
 export default function App() {
   return (
@@ -39,6 +44,12 @@ export default function App() {
          <Route path="/services/wordpress" element={<WordPress />} />
           <Route path="/services/video" element={<Video />} />
           <Route path="/services/social-media-marketing/" element={<SocialMedia />} />
+            <Route path="/services/Ecommerce" element={<Ecommerce/>} />
+            <Route path="/services/SeoService" element={<SeoService/>} />
+             <Route path="/services/b2b" element={<B2BMarket/>} />
+              <Route path="/services/software" element={<SoftwareDevelopment/>} />
+               <Route path="/services/uiux" element={<UIUXDevelopment/>} />
+                <Route path="/services/2d-animation" element={<AnimationDevelopment/>} />
       </Routes>
     </Router>
   );

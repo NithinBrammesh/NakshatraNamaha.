@@ -134,31 +134,31 @@ export default function SocialMedia() {
           </div>
         </div>
       </div>
+<div className="socialmedia-section">
+  <motion.div
+    initial={{ opacity: 0, y: -30 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.6 }}
+  >
+    <h2 className="socialmedia-title">Best Social Media Marketing Company in Mysore</h2>
+  </motion.div>
 
-      <div className="wordpressapp-section">
-        <motion.div
-          initial={{ opacity: 0, y: -30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
-          <h2 className="wordpressapp-title">Best Social Media Marketing Company in Mysore</h2>
-        </motion.div>
+  <motion.div
+    initial={{ opacity: 0, y: 30 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.6, delay: 0.2 }}
+  >
+    <div className="socialmedia-section-wrapper">
+    
+      <p className="socialmedia-description">
+        A strong social media presence is essential for brand growth and audience engagement. As a leading social media marketing company in Mysore, we craft customized strategies that align with your business goals. Our campaigns are designed with precision to ensure maximum reach, engagement, and conversions across platforms. With a focus on content, analytics, and engagement, our expert team creates impactful social media strategies that boost brand awareness and drive results. Through targeted marketing and creative storytelling, we help your business leave a lasting impression in the digital world.
+      </p>
+    </div>
+  </motion.div>
+</div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-        >
-          <div className="wordpressapp-section-wrapper">
-            <div className="wordpressapp-line"></div>
-            <p className="wordpressapp-description">
-              A strong social media presence is essential for brand growth and audience engagement. As a leading social media marketing company in Mysore, we craft customized strategies that align with your business goals. Our campaigns are designed with precision to ensure maximum reach, engagement, and conversions across platforms. With a focus on content, analytics, and engagement, our expert team creates impactful social media strategies that boost brand awareness and drive results. Through targeted marketing and creative storytelling, we help your business leave a lasting impression in the digital world.
-            </p>
-          </div>
-        </motion.div>
-      </div>
 
       <div className="wordpressservices-wrapper">
         <h2 className="wordpressservices-title">Our Social Media Marketing services include</h2>

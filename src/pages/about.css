@@ -4,7 +4,7 @@
   position: relative;
   width: 100%;
   height: 400px;
-  background-image: url('/public/images/ttt.jpg'); /* <- adjust path if needed */
+  background-image: url('/public/images/ttt.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

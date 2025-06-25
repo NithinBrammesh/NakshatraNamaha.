@@ -43,15 +43,15 @@
   font-size: 1.12rem;
   line-height: 1.8;
 }
-
 .videoapp-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center; /* ⬅️ Center children horizontally */
+  text-align: center;  /* ⬅️ Center text */
   padding: 80px 20px;
   margin: 0 auto;
-  padding-left: 210px;
   width: 100%;
+  max-width: 1280px; /* Optional: limit total width */
 }
 
 .videoapp-title {
@@ -61,28 +61,21 @@
   margin-bottom: 20px;
 }
 
-.videoapp-line,
-.videoapp-description {
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: 30px;
-}
-
-.videoapp-line {
-  width: 250px;
-  height: 2px;
-  background-color: #000;
-  margin-right: 30px;
-  margin-bottom: 100px;
+.videoapp-section-wrapper {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;         /* Centers the block */
+  text-align: left;       
 }
 
 .videoapp-description {
   font-size: 1.1rem;
   line-height: 1.8;
   color: #444;
-  max-width: 70%;
-  display: inline-block;
+
+  margin-top: 30px;
 }
+
 
 .talk-btn {
   display: inline-flex;
